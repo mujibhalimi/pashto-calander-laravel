@@ -30,7 +30,7 @@ Restart Webserver - done.
 ### Composer Installation
 
 ```php
-composer require mujibhalimi/Pashto-laravel-jalali-date
+composer require mujibhalimi/pashto-calander-laravel
 ```
 
 ### Integration with Laravel 5.*
@@ -54,7 +54,7 @@ Add Pashto to app aliases in config/app.php file
 echo Pashto::jTog('next week');
 echo Pashto::jTog('now');
 echo Pashto::jTog('1396-06-30 05:30:10');
-echo Pashto::jTog ('۱۳۹۱/۱۰/۱۲ ۲۰:۳۰:۵۵', 'yyyy/MM/dd H:m:s', 'fa', 'en', 'Asia/Kabul');
+echo Pashto::jTog ('۱۳۹۱/مرغومی/۱۲', 'yyyy/MM/dd H:m:s', 'ps', 'en', 'Asia/Kabul');
 
 // Gregorian to Jalali samples 
 echo Pashto::gToj('2 days ago');
