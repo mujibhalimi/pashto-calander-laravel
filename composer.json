@@ -1,0 +1,24 @@
+{
+    "name": "mujibhalimi/pashto-calander-laravel",
+    "description": "Laravel Jalali datetime component known as Pashto",
+    "keywords": ["datetime", "laravel", "jalali", "shamsi", "hijri", "jDatetime", "Gregorian", "moment"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mujib Halimi (0093) 77000 7375",
+            "email": "Salimjan3008@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.x.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "mujibhalimi\\Pashto\\": "src/Pashto"
+        }
+    },
+    
+    "minimum-stability": "stable"
+}
